@@ -1,4 +1,4 @@
 # Rounded Polygons
-Draw rounded polygons in JavaScript
+Draw rounded polygons on canvases in JavaScript
 
 JSFiddle Example: https://jsfiddle.net/ijake/a2cLnkz8/2/
