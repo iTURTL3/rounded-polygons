@@ -26,7 +26,7 @@ var drawRoundedPolygon = function(context, x, y, radius, sides, angle, radius2) 
    context.beginPath();
    for ( i = 0; i <= length; i += 2 ) {
       context.arcTo(
-         x - points[(i + 0) % length],
+         x - points[i % length],
          y - points[(i + 1) % length],
          x - points[(i + 2) % length],
          y - points[(i + 3) % length],
